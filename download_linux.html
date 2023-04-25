@@ -34,6 +34,20 @@
             <p>To download GyanGPT for Linux, you will need to have at least Python 3.8 installed. You will also need to have pip installed.
             <br>
             You can install pip by running this command (for Debian/Ubuntu-based distributions):
-              <sup>sudo apt install python3-pip -y</sup></p>
+              sudo apt install python3-pip -y
+            <br>
+            Next, you will have to run these three commands (all distributions):
+            <br>
+            git clone https://github.com/crazycheetah42/GyanGPT
+            <br>
+            cd GyanGPT
+            <br>
+            sudo apt install portaudio19-dev python3-tk -y
+            <br>
+            sudo pip3 install tk PyAudio SpeechRecognition openai
+            <br>
+            python3 GyanGPT_linux.py
+            <br>
+            And then you will be able to use GyanGPT.</p>
     </body>
 </html>
